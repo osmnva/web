@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 105px 0px 105px;
+    gap: 10px;
+    width: 1434px;
+    height: 108px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+
+    
+}
+#navbar li a:hover{
+    color: #196e3c;
+}
+.name{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.info{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    
+}
+.script h3{
+    font-size: 16px;
+    color: #196e3c;
+}
+.script h1{
+    font-size: 48px;
+    font-weight: 500;
+    color: black;
+}
+.script hr{
+    width: 48px;
+    border: 3px solid #196e3c;
+}
+.info hr{
+    border: 3px solid #196e3c;
+}
+.photo img{
+    width: 450px;
+    height: 320px;
+    margin-left: 150px;
+}
+.about{
+    height: 300px;
+    margin-top: 50px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.about h1{
+    font-size: 36px;
+    font-weight: 400;
+    color: black;
+}
+.about hr{
+    width: 48px;
+    border: 3px solid #196e3c;
+}
+.about h3{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+}
+.about h2{
+    font-size: 22px;
+    font-weight: 200;
+}
+.skills{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+.programming-lang h2{
+    font-size: 22px;
+    color: #196e3c;
+
+}
+.programming-lang h3{
+    font-size: 18px;
+    color: black;
+    font-weight: 200;
+}
+.tools h2{
+    font-size: 22px;
+    color: #196e3c;
+
+}
+.tools h3{
+    font-size: 18px;
+    color: black;
+    font-weight: 200;
+}
+.problem-solving h2{
+    font-size: 22px;
+    color: #196e3c;
+
+}
+.problem-solving h3{
+    font-size: 18px;
+    color: black;
+    font-weight: 200;
+}
+.communication h2{
+    font-size: 22px;
+    color: #196e3c;
+
+}
+.communication h3{
+    font-size: 18px;
+    color: black;
+    font-weight: 200;
+}
+.team-work h2{
+    font-size: 22px;
+    color: #196e3c;
+
+}
+.team-work h3{
+    font-size: 18px;
+    color: black;
+    font-weight: 200;
+}
+.programming-lang{
+    margin-right: 10px;
+}
+.tools{
+    margin-right: 10px;
+}
+.problem-solving{
+    margin-right: 10px;
+}
+.communication{
+    margin-right: 10px;
+}
